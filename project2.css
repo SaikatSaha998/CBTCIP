@@ -1,0 +1,60 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-cute-hand-drawn-style-math-education-blue-plaid-background-image_337576.jpg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  color: white;
+}
+
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #3e4444;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.display {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #3e4444;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #c4b7a6;
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.operator {
+  color: #d64161;
+  font-weight: 700;
+}
